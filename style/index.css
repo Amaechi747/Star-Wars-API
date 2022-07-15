@@ -1,0 +1,72 @@
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bord {
+  border: 1px solid yellow;
+}
+
+body{
+  min-height: 100vh;
+  background-color: grey;
+  padding: 5rem 0;
+  background-image: url(../images/video.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#starwars{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+}
+
+.menu-bars{
+  width: 10%;
+  background-color: blue;
+  color: white; 
+}
+
+
+.offcanvas-effect:hover{
+  background-color: lightcoral;
+}
+
+.magic{
+  color: white;
+  
+}
+.font-sized {
+  font-size: 0.6rem;
+}
+
+img{
+  border-radius: 20%;
+}
+
+
+@media screen and (max-width:768px) {
+  .container-fluid {
+    height: 100%;
+  }
+
+  .main-card-div card{
+    height: 2px;
+    background-color: aqua;
+  }
+}
+
+@media screen and (max-width:400px) {
+
+
+  .main-card-div card{
+    height: 2px;
+    background-color: aqua;
+  }
+}
+
+
